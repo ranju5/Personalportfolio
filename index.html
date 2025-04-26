@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span class="highlight">Ranjitha</span></h1>
+    <p>Python Enthusiast | Verilog | Html and Css |</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>Am Ranjitha of Electronics and Communication Engineering Department From PES College Of Engineering 
+    Mandya.And from Hunsur.I have completed  class 10 and 12 at La Salette Pu College Mardur My Father name is Umesh and My Mother name is Rukmini. I have two 
+     siblings, my ordinal position is second. i have a strong foundation in Python, Verilog, Html and css
+    In addition to technical skills ,i have soft skills too through participation in coding
+    competition,hackathon.i have done a project on AXI protocol and creation of web pages using html  and css.
+    My hobbies include drawing pencil sketch and singing..</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>AXI protocol</h3>
+        <p>A Protocol used to establish a connection inside Soc</p>
+      </div>
+      <div class="card">
+        <h3>Registration form</h3>
+        <p>A simple login form using html and css</p>
+      </div>
+      <div class="card">
+        <h3>Music app</h3>
+        <p> A simple music app using figma</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ranjitha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
